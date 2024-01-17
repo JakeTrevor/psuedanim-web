@@ -8,15 +8,21 @@
     "dev": "next dev",
     "lint": "next lint",
     "start": "next start",
-    "langium:generate": "langium generate"
+    "langium:generate": "langium generate",
+    "postinstall": "monaco-treemending"
   },
   "dependencies": {
     "@t3-oss/env-nextjs": "^0.7.1",
+    "@typefox/monaco-editor-react": "^2.5.0",
     "langium": "^2.1.3",
     "langium-cli": "^2.1.0",
+    "monaco-editor": "^0.45.0",
+    "monaco-editor-workers": "^0.44.0",
+    "monaco-editor-wrapper": "^3.5.0",
     "next": "^14.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "vscode": "npm:@codingame/monaco-vscode-api@^1.83.16",
     "vscode-languageserver": "^9.0.1",
     "zod": "^3.22.4"
   },
@@ -26,6 +32,7 @@
     "@types/node": "^18.17.0",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
+    "@types/vscode": "^1.85.0",
     "@typescript-eslint/eslint-plugin": "^6.11.0",
     "@typescript-eslint/parser": "^6.11.0",
     "autoprefixer": "^10.4.14",
